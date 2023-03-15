@@ -1,0 +1,10 @@
+CLASS sample DEFINITION PUBLIC.
+  PUBLIC SECTION.
+    METHODS hello RETURNING VALUE(result) TYPE string.
+ENDCLASS.
+
+CLASS sample IMPLEMENTATION.
+  METHOD hello.
+    result = 'Hello, World!'.
+  ENDMETHOD.
+ENDCLASS.
